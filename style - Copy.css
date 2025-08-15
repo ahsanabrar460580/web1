@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+     background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+ .logo {
+    font-size: 2em;
+    color:#2acce8;
+    cursor: default;
+}
+.logo span {
+    color:  #50b9ff;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation span {
+  color: #ffffff;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #2acce8;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color:#4bb4ff;
+}
+.btn-talk {
+    color: #4bb4ff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background:none;
+    border-radius: 10px;
+    border: px solid #2acce8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    background: transparent;
+    color:  #ffffff;
+    background: #50b9ff;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.jpg) ;
+    image-rendering: none;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    color:  #50b9ff;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color:hsl(0, 0%, 100%);
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background:  #50b9ff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s;
+    
+    float: left;
+}
+.btn-group a:hover:nth-child(1) {
+    color:  #50b9ff;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+     color:  #50b9ff;
+    background: hsl(0, 0%, 100%);
+    
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+     color: #ffffff;
+    background: transparent;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background:  #ffffff;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    outline: 2px solid  #50b9ff;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color:  #50b9ff;
+}
+
+
+
+
+
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color:#50b9ff;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #000000;
+  border-radius: 12px;
+  color:#50b9ff;
+  box-shadow: 0 6px 12px #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.project-buttons {
+  margin-top: 15px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color:#50b9ff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #50b9ff;
+}
+
+.btn.outline {
+  background-color: transparent;
+  border: 2px solid #50b9ff;
+  color:#50b9ff;
+}
+.btn.outline:hover {
+  background-color:#50b9ff;
+  color: white;
+}
+
+
+
+/* Section Container */
+#skills {
+  background-color: #000000;
+}
+#skills .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #000000;
+  color: #50b9ff;
+  text-align: center;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* Skill Card */
+.skill-card {
+  background: #000000;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(253, 249, 249);
+  transition: transform 0.3s ease;
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skill Bar */
+.skill-bar {
+  background: #ffffff;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.skill-fill {
+  height: 100%;
+  background:#50b9ff; /* purple gradient color */
+  border-radius: 5px;
+  transition: width 0.8s ease-in-out;
+}
+
+
+
+
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #50b9ff; /* Purple accent */
+  margin-bottom: 10px;
+}
+
+#contact p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #50b9ff;
+}
+
+.btn-submit {
+  background: #50b9ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #50b9ff;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #50b9ff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer Section */
+
+.footer {
+  background-color:var(--primary-color);
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-logo h2:hover {
+  color:  #50b9ff;
+}
+
+.footer-social a {
+  color: var(--secondary-color);
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color:  #50b9ff;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color:#ffffff;
+}
+
+

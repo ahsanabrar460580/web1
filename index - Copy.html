@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Website using HTML and CSS | ShopIn.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>Shop</span>In.com</h2>
+        <br/>
+        <br/>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">sale</a>
+            <a href="#"> categories</a>
+            <a href="#">Service</a>
+            <a href="#">Help & Support</a>
+        </nav>
+        <a href=" #" class="btn-talk"><strong>LOGIN</strong></a>
+    </header>
+    <section class="home"  >
+      
+        <div class="content">
+            <h2>Welcome, to <span>ShopIn.com</span></h2>
+            <h4>Happy Shopping</h4>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident voluptas similique.
+                Impedit incidunt atque recusandae rem quam.</span></p>
+            <div class="btn-group">
+                <a href="#"><strong>SIGNUP</strong> </a>
+                <a href="#"><strong>See Products</strong></a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+<!-- Product's Section -->
+<section id="projects" style="padding: 60px 20px; background-color: #000000;">
+  <div class="container">
+    <h2 class="section-title">Product's</h2>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="./1.png" alt="Project 1" class="project-img" />
+        <h3>M&U Dark Night</h3>
+        <p>Dark Night Gas Free Body Spray.</p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn">Order Now</a>
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="./2.jpg" alt="Project 2" class="project-img" />
+        <h3> Track Suit</h3>
+        <p>Man's-14<sup>th</sup>August.polyester athletic Outfit.</p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn">Order Now</a>
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="./3.jpg" alt="Project 3" class="project-img" />
+        <h3>Aura Watch</h3>
+        <p>Black Arabic Luxuary Aura Watch.</p>
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn">Order Now</a>
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--categories-->
+<section id="categories" style="background-color: #000000;">
+       <div class="container">
+    <h2 class="section-title">categories</h2>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="./man.png" alt="Project 1" class="project-img" />
+
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="./woman.png" alt="Project 2" class="project-img" />
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="./Children.png" alt="Project 3" class="project-img" />
+        <div class="project-buttons">
+          <a href="#" target="_blank" class="btn outline">See Product</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+</section>
+
+
+ <!-- My Services Section -->
+<section id="skills" style="color: #000000;">
+  <div class="container">
+    <br>
+    <h2 class="Section-title"> My Services</h2>
+    <br>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3> Product Colette</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 95%;"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3> Timing</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3> Services</h3>
+        <div class="skill-bar">
+          <div class="skill-fill" style="width: 85%;"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ===== Contact Section ===== -->
+<section id="contact" style="padding: 60px 20px; background-color: #000000;">
+  <h2> Order Now!</h2>
+  <br>
+  <form action="#" method="post" class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    </div>
+    <button type="submit" class="btn-submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p>Email: <a href="#">ShopIn@example.com</a></p>
+    <p>LinkedIn: <a href="#">Ahsan Abrar/linkedin.com</a></p>
+  </div>
+  
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Create by Ahsan Abrar</h2>
+    </div>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <p class="footer-text">© 2025 xyz. All rights reserved.</p>
+  </div>
+</footer>
+
+  
+</section>
+
+</body>
+</html>
